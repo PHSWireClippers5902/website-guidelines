@@ -6,7 +6,7 @@ import { docsSchema } from '@astrojs/starlight/schema';
 const blogCollection = defineCollection({
 	type: 'content', // v2.5.0 and later
 	schema: z.object({
-	  title: z.string(),
+	  title: z.string().optional(),
 	  tags: z.array(z.string()),
 	  image: z.string().optional(),
 	}),
