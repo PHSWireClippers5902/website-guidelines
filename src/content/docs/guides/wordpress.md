@@ -1,3 +1,8 @@
+---
+title: Wordpress
+description: We've installed some stuff on the website. Here's a comprehensive list on what you're in for.
+---
+
 # Using WordPress
 You might know that we're piggybacking off Mr. Reynolds for our web hosting. This means no Cloudflare and a few other things. 
 
