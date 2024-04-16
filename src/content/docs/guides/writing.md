@@ -3,7 +3,6 @@ title: Writing
 description: How to make sure that our content remains accessible. 
 ---
 
-# Writer Standards
 Based on WCAG 2.1. This is being drafted and doesn’t contain all necessary elements in a standards document. 
 
 ## Accessibility Guidelines

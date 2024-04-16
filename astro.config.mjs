@@ -12,17 +12,20 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'WordPress', link: '/guides/wordpress/' },
-						{ label: 'Colors', link: '/guides/colors/' },
-						{ label: 'Writing', link: '/guides/writing/' },
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					autogenerate: { directory: 'guides' }
 				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: 'More Links',
+					items: [
+						// Add more links by copying and pasting! Make sure not to forget the comma...
+						{ label: 'Github', link: 'https://github.com/PHSWireClippers5902'},
+						{ label: 'Our Website', link: 'https://wireclippers.org'},
+						{ label: 'Instagram', link: 'https://instagram.com/phs_wire_clippers'},
+					]
 				},
 			],
 		}),

@@ -3,7 +3,6 @@ title: Colors
 description: A guide to making sure people can read stuff.
 ---
 
-# Colors
 They make up a significant portion of the user's experience.
 Use the wrong colours, and the user might think we're completely unprofessional.
 (We're hosting our website standards in a public GitHub repository. The point still stands.)
