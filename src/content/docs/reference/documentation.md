@@ -32,11 +32,13 @@ Generally, we don't touch most folders. Please __do NOT__ change anything inside
 
 So, it's not building correctly. Did you check to make sure everything you need is there?
 
+:::note
 It's generally a good idea to not build everything on Github (it wastes build minutes) so we suggest running an NPM dev server. Open a terminal, `cd` into the root directory, then start up a local dev server with `npm run dev`. It also gives you comprehensive information with what isn't right in your terminal.
+:::
 
 If it's still not building correctly, check these things:
 
-- Is the correct content schema at the top of the page? It's stupid, but the entire website __will NOT build correctly__ if you forget it. 
+- Is the correct content schema at the top of the page? It's weird, but the entire website __will NOT build correctly__ if you forget it. 
 - Is there any stray files in `/docs`? Check to make sure that there's no stray typescript or javascript files inside `/docs` or any child folders, then try again.
 
 Feel free to add more to this list as you encounter more issues with Astro. It's surprisingly easy to use, but there's a little bit of a learning curve. 
