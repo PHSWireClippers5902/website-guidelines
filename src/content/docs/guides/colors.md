@@ -8,7 +8,7 @@ Use the wrong colours, and the user might think we're completely unprofessional.
 (We're hosting our website standards in a public GitHub repository. The point still stands.)
 
 Use this as guidance, and feel free to change up the colours if necessary. Just make sure the colour contrast still stands. 
-## Color Pallate
+## Color Palette
 ### Main Surfaces
 
 Background | Contrast 1 | Contrast 2 | Border | Primary Text | Secondary Text | Surfaces
@@ -20,12 +20,13 @@ Primary Accent | Accent Text | Secondary Accent | Secondary Accent Text | Primar
 -|-|-|-|-|-|-|-
 #A73355 | #FFFFFF | #ffb95b | #3B3B3A | #A7335A | #FFD9DF | #643f00 | #ffddb6
 
-> [!NOTE]  
-> There's no previews of the colors - yet. You have two options.
-> - Visit the (somewhat outdated) Google Doc in our internal drive at General Team -> Website -> Website/Design Standards
-> - Copy and paste these hex codes into Google.
-> 
-> We'll come up with a solution.
+:::note 
+There's no previews of the colors - yet. You have two options.
+- Visit the (somewhat outdated) Google Doc in our internal drive at General Team -> Website -> Website/Design Standards
+- Copy and paste these hex codes into Google.
+
+We'll come up with a solution.
+:::
 
 ### Usage
 - Background is used primarily.
@@ -43,9 +44,11 @@ Containers are used for buttons.
 
 #### Primary vs Secondary
 Use the primary and secondary colors as highlights. Use the accent text with their corresponding accents. 
-> [!CAUTION]
-> Don't use secondary accent and secondary accent text for small text. Use primary instead.
-> This is due to low colour contrast, which makes legilibity difficult at smaller sizes. 
+
+:::caution
+Don't use secondary accent and secondary accent text for small text. Use primary instead.
+This is due to low colour contrast, which makes legilibity difficult at smaller sizes. 
+:::
 
 Use primary and secondary containers for clickable objects like buttons. Use the corresponding container text for these clickable objects. 
 ## Sources
