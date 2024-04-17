@@ -8,7 +8,7 @@ Use the wrong colours, and the user might think we're completely unprofessional.
 (We're hosting our website standards in a public GitHub repository. The point still stands.)
 
 Use this as guidance, and feel free to change up the colours if necessary. Just make sure the colour contrast still stands. 
-## Color Pallate
+## Color Palette
 ### Main Surfaces
 
 Background | Contrast 1 | Contrast 2 | Border | Primary Text | Secondary Text | Surfaces
