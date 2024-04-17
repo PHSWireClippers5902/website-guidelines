@@ -7,6 +7,8 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [starlight({
     title: 'Website Documentation',
+    logo: {
+      src: './src/assets/emblem.png',},
     social: {
       github: 'https://github.com/PHSWireClippers5902'
     },
