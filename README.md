@@ -1,16 +1,18 @@
 # Starlight Starter Kit: Basics
-
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
-
 ```
 npm create astro@latest -- --template starlight
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
+## About this Repository
+This is a repository used to host a small littel documentation website - this helps make sure that everyone's
+on the same playing field. It currently hosts information about:
+- How to maintain this documentation website
+- WordPress basics - it's what runs our main website ((wireclippers.org)[https://wireclippers.org])
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+We'll gradually migrate our documentation regarding robots and other general
+operations under this repository (pending approval).
+
+If you have any questions, GitHub tag @website with a question or tag someone under @website or @programming on Discord.
 
 ## 🚀 Project Structure
 
