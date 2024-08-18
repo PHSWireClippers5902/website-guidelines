@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
-    title: 'Website Documentation',
+    title: 'Documentation',
     logo: {
       src: './src/assets/emblem.png',},
     social: {
@@ -17,9 +17,14 @@ export default defineConfig({
       './src/tailwind.css',
     ],
     sidebar: [{
-      label: 'Guides',
+      label: 'Website',
       autogenerate: {
-        directory: 'guides'
+        directory: 'website'
+      }
+    }, {
+      label: 'Coding',
+      autogenerate: {
+        directory: 'coding'
       }
     }, {
       label: 'Reference',

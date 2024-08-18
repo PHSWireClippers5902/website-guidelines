@@ -14,4 +14,4 @@ As a solution, every single photo on this website is deliered in .jpg or .png fo
 
 You should also be able to get access to photos cleared for release on the Discord.
 
-For more information on how to use this, see [our guide on using colors.](https://phswireclippers5902.github.io/website-guidelines/guides/colors/)
+For more information on how to use this, see [our guide on using colors.](https://phswireclippers5902.github.io/website-guidelines/website/colors/)
