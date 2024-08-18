@@ -25,7 +25,7 @@ There's no previews of the colors - yet. You have two options.
 - Visit the (somewhat outdated) Google Doc in our internal drive at General Team -> Website -> Website/Design Standards
 - Copy and paste these hex codes into Google.
 
-We'll come up with a solution.
+We'll come up with a solution eventually
 :::
 
 ### Usage
