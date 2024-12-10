@@ -22,9 +22,9 @@ export default defineConfig({
         directory: 'website'
       }
     }, {
-      label: 'Coding',
+      label: 'Communications',
       autogenerate: {
-        directory: 'coding'
+        directory: 'communications'
       }
     }, {
       label: 'Reference',
