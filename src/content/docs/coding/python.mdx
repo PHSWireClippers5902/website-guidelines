@@ -1,0 +1,74 @@
+---
+title: Python
+description: We're adding functionality to program our robot with Python soon. 
+---
+We're considering adding functionality to program our robot with Python. This is a guide to help get you started with Python.
+
+:::note
+Requirements: Admin access on computer, Windows OS.
+:::
+
+## Setup
+
+### Python Installation
+
+- Go to this link: https://www.python.org/downloads/windows/ and download the 64 bit windows installer. 
+- Open the downloaded file
+- Hit “Install Now”, and check the “Use admin privileges when installing py.exe” button. 
+- Hit close when finished
+
+### FRC Game Tools installation
+- Go to this link: https://www.ni.com/en/support/downloads/drivers/download.frc-game-tools.html#500107 and download the latest module.
+- Once it downloads, allow admin privileges
+- Hit “I accept the above license agreement.” then next. Then hit next. It will then install all the FRC packages. This may take some time, so be patient. 
+
+### PyCharm IDE Installation
+:::note
+PyCharm is an IDE developed by JetBrains. While it's usually paid, we're using this for non-commercial purposes (so it's free).
+:::
+
+- Go to this link: https://www.jetbrains.com/pycharm/download/?section=windows and scroll down to “PyCharm Community Edition”. Then, hit the “Download” button. This should be a free IDE so if it says to put your payment info in then you hit the wrong button. 
+- Once it downloads, open the downloaded file. 
+- Allow admin access, then once the PyCharm setup window appears hit “next”
+- Then hit “next” again. 
+- Check the Desktop Shortcut, Context Menu, and Create Associations checks, and Update PATH variable
+- Hit “next”
+- Finally, hit install.
+- Hit “Reboot now” and “Finish”
+
+### RobotPy Installation
+:::tip
+After every command, hit “enter”
+:::
+- Open the computer’s search bar and type “cmd”.
+- Once it pops up (as “command prompt”), hit “run as administrator.”
+- Type the following command:
+```py -3 -m pip install robotpy```
+- Next, type: ```py -3 -m pip install --upgrade robotpy```
+- Close out of the command prompt. 
+
+## Setting up a project
+:::caution
+**REPEAT THESE FOR EACH PROJECT YOU DO!**
+:::
+- Head to this link: https://drive.google.com/drive/folders/17SxAzNhnd1NPCFEipMwcDCmiz91ofeA4?usp=drive_link and download the folder. 
+- Once it downloads, drag and drop it onto an empty space on your desktop. Then, right click, then hit “Extract All”. This way, the .zip file is extracted.
+- Once it is extracted open the folder. 
+- Right click and select “Copy as Path” (If on windows 11) This will be important later. 
+:::note
+If you are on Windows 10, right click on the folder, then hit properties. Go to security, then copy the path (which should go something like this: “C:/users/NAME/desktop/EmptyRobotProject#########/EmptyRobotProject”
+:::
+- Open command prompt again **NOT as administrator.**
+You will be creating a folder for your project.
+
+To do this, type the following command, replacing ExampleName with anything:``` mkdir ExampleName``` 
+- Type the following command with the same name that you just created: ```cd ExampleName```
+- Now, we will be copying the files that we just downloaded. Make sure that you still have the Path copied from step B. Now, type the following command but make sure to remove the parentheses from the copied string: ```xcopy EXAMPLEPATH```
+- Now, the files that are copied are easier than remembering commands. To create the empty project type “createproject” then hit enter. 
+- Type “sync” and hit enter. When the new window pops up, hit enter again. 
+- Open your file explorer and navigate to the folder that you created in step E. 
+- Right click “pyproject.toml” and select “open with” then chose another app. From there, hit “notepad”.
+- The file that pops up will look daunting. DO NOT MODIFY anything but a single hashtag. Remove the hashtag next to “all”
+- Go back to your cmd. From there, type “sync” and hit enter. Hit enter when the new window pops up. 
+
+You are now done! You are all set to begin coding the robot. 

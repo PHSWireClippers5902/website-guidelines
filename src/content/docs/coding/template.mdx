@@ -1,0 +1,72 @@
+---
+title: Template
+description: We're adding functionality to program our robot with Python soon. 
+---
+Copy and paste this to get started.
+
+```
+#!/usr/bin/env python3
+#
+# Copyright (c) FIRST and other WPILib contributors.
+# Open Source Software; you can modify and/or share it under the terms of
+# the WPILib BSD license file in the root directory of this project.
+#
+
+
+import wpilib
+import wpilib.drive
+# import ctre
+import phoenix5
+
+
+class MyRobot(wpilib.TimedRobot):
+   def robotInit(self):
+      	"""
+       This function is called upon program startup and
+       should be used for any initialization code.
+       """
+       #Code Here:
+
+
+
+
+   def autonomousInit(self):
+       """This function is run once each time the robot enters autonomous mode."""
+       # Code here:
+
+
+   def autonomousPeriodic(self):
+       """This function is called periodically during autonomous."""
+
+
+       # Code Here:
+
+
+   def teleopInit(self):
+       """This function is called once each time the robot enters teleoperated mode."""
+       #Code Here:
+
+
+   def teleopPeriodic(self):
+       """This function is called periodically during teleoperated mode."""
+       # Code Here:
+
+
+
+
+   def testInit(self):
+       """This function is called once each time the robot enters test mode."""
+       #Code Here:
+
+
+   def testPeriodic(self):
+       """This function is called periodically during test mode."""
+       #Code Here:
+
+
+
+
+if __name__ == "__main__":
+   wpilib.run(MyRobot)
+
+```

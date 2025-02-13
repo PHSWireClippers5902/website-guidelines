@@ -1,0 +1,51 @@
+---
+title: Important Methods to Know
+description: We're adding functionality to program our robot with Python soon. 
+---
+## XboxController 
+The Xbox Controller is in the wpilib library. This means that to initialize an instance of an Xbox, the syntax is this: 
+
+`self.EXAMPLENAME = wpilib.XboxController(channel)`, where `EXAMPLENAME` refers to a name that you name the xbox controller, `wpilib` refers to the base library, and `channel` refers to the channel in the Driver Station
+
+Later on, to access certain Buttons or Joysticks from the XboxController, accessor methods are used. Some examples are these:
+- ```self.EXAMPLENAME.getAButton()``` gets a boolean, representing the value of the “A” button. 
+- ```self.EXAMPLENAME.getLeftY()``` gets a double, from -1 -> 1, represented by the Left Joystick’s “Y” (also known as the Left Vertical Axis)
+- `self.EXAMPLENAME.getPOV(degree)` gets a boolean of the numerical DPAD, from 0-360. Integers that aren’t divisible by 45 will not work. 
+- `self.EXAMPLENAME.getRightTriggerAxis()` gets a double, from 0 -> 1, representing how much you pull the Right Trigger.
+
+There are many more methods, [here's a link to the documentation](https://first.wpi.edu/wpilib/allwpilib/docs/release/java/edu/wpi/first/wpilibj/XboxController.html)
+
+## TalonSRX Method
+
+:::tip
+In every usage of `EXAMPLEMOTOR` on this page, the name is not actually locked to `EXAMPLEMOTOR`. It can be any name you want, as long as it is not a reserved keyword.
+:::
+
+The TalonSRX motor controllers are a part of the Phoenix5 library. To initialize an instance of a TalonSRX, the syntax is this: 
+
+`self.EXAMPLEMOTOR = phoenix5.TalonSRX(channel)`, where `EXAMPLEMOTOR` refers to a name of the motor, `phoenix5` refers to the base library, and `channel` refers to the channel assigned in Phoenix Tuner. 
+
+To make the example motor work, in this case of a “Percent Output” of a motor, the code is as follows: 
+
+`self.EXAMPLEMOTOR.set(phoenix5.ControlMode.PercentOutput, percent)`,  where `EXAMPLEMOTOR` is the name of the motor, `pheonix5.ControlMode` is a type of way to control a motor, `PercentOutput` is the name of the Mode, and `percent` is from -1 -> 1, where 1 is highest speed forward, and -1 is highest speed backward.
+
+To invert a motor, the code is: `self.EXAMPLEMOTOR.setInverted(True)` , where `EXAMPLEMOTOR` is the name of the motor, and `True` is whether or not the motor is inverted.
+
+There are other methods that can be explored, a link is here
+## CANSparkMAX Method
+A CANSparkMAX is a different type of motor with built in encoders.
+
+:::note
+The following is all one line.
+:::
+To initialize one, the code is: 
+
+`self.EXAMPLESPARK = rev.CANSparkMax(ID,rev.CANSparkLowLevel.MotorType.kBrushless)`, where `EXAMPLESPARK` is the name of the motor, `CANSparkMax` is the motor controller, the `ID` is the unique id that is given in Rev Hardware Client, and the `MotorType` is either kBrushed or kBrushless.
+
+To set a `CANSparkMAX` to a speed  (from -1 -> 1), this code is used:
+
+`self.EXAMPLESPARK.set(SPEED)`, where `EXAMPLESPARK` is the name of the spark, and `SPEED` is the speed, from -1 -> 1
+
+
+
+
