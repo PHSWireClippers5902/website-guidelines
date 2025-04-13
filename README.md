@@ -1,4 +1,6 @@
 # Starlight Starter Kit: Basics
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPHSWireClippers5902%2Fwebsite-guidelines.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPHSWireClippers5902%2Fwebsite-guidelines?ref=badge_shield)
+
 ```
 npm create astro@latest -- --template starlight
 ```
@@ -54,3 +56,6 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPHSWireClippers5902%2Fwebsite-guidelines.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPHSWireClippers5902%2Fwebsite-guidelines?ref=badge_large)
