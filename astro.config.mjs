@@ -7,9 +7,9 @@ export default defineConfig({
     title: 'Documentation',
     logo: {
       src: './src/assets/emblem.png',},
-    social: {
-      github: 'https://github.com/PHSWireClippers5902'
-    },
+    social: [
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/PHSWireClippers5902' }
+    ],
     customCss: [
       // Relative path to your custom CSS file
       './src/tailwind.css',
