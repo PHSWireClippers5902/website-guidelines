@@ -29,7 +29,7 @@ and we also use them for:
 
 All of these plugins can be managed through [our Hub account](https://wpmudev.com/hub2).
 
-## Automattic
+## Automatic
 In addition, we also have plugins from Automattic Inc. that can be managed through [wordpress.com](https://wordpress.com). These include:
 - Akimsnet (used in tandem with hCaptcha to stop spam)
 - JetPack (general use plugin used to get stats, do amazing things with the editor, and a bunch of other general optimisations)
